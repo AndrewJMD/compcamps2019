@@ -1,0 +1,56 @@
+.titles {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-family: 'Special Elite', cursive;
+}
+
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 55px;
+}
+
+.navli {
+  float: left;
+  font-size: 20px;
+}
+
+.navli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+.navli a:hover {
+  background-color: #111;
+  width: 60%;
+  font-size: 21px;
+}
+
+body {
+  background-color: #1f1f1f1f
+}
+
+.text{
+  text-align: center;
+}
+
+.images{
+  display:  block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pfp{
+  clip-path: circle(170px at center);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
