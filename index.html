@@ -45,6 +45,25 @@
       <p class="text">This is my 4th year of camp, and it's totally worth the hour long drive from rural saskatchewan.
         This year wasnt focused as much on learning completely new skills and more so on putting what I know to use and getting better at software and designing.</p>
     </div>
+    <script>
+      function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+      }
 
+      async function meme(){
+        for(i = 0; i < 1000; i++){
+          var img = document.createElement("IMG")
+          img.setAttribute('src', "./images/austin.jpg");
+          img.setAttribute("width", "500px");
+          img.setAttribute("height", "500px");
+          img.setAttribute("alt", "Memer");
+          await sleep(70);
+          document.body.appendChild(img);
+          console.log(img);
+        }
+      }
+
+    </script>
+    <button class="btcenter" onclick="meme()">Austin</button>
   </body>
 </html>

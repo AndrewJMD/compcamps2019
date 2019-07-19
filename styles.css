@@ -101,5 +101,13 @@ body {
 
 .center{
   text-align: center;
+  display: block;
+  margin: auto auto;
   color: #000000;
+}
+
+.btcenter{
+  text-align: center;
+  display: block;
+  margin: auto auto;
 }
